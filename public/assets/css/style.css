@@ -168,9 +168,9 @@ b, strong {
 /*custom-btn*/
 .softo-btn-outline {
     padding: 5px 30px;
-    border: 2px solid #281483;
+    border: 2px solid #0013FF;
     background-color: transparent;
-    color: #281483;
+    color: #0013FF;
     font: 600 14px/30px 'Montserrat', sans-serif;
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
@@ -178,8 +178,8 @@ b, strong {
 }
 
 .softo-btn-outline:hover {
-    border: 2px solid #281483;
-    background-color: #281483;
+    border: 2px solid #0013FF;
+    background-color: #0013FF;
     color: #fff;
     text-decoration: none;
     -webkit-transform: translateY(-2px);
@@ -188,8 +188,8 @@ b, strong {
 
 .softo-solid-btn {
     padding: 5px 30px;
-    border: 2px solid #281483;
-    background-color: #281483;
+    border: 2px solid #0013FF;
+    background-color: #0013FF;
     color: #fff;
     font: 600 14px/30px 'Montserrat', sans-serif;
     -webkit-transition: all .3s ease-out;
@@ -198,7 +198,7 @@ b, strong {
 }
 
 .softo-solid-btn:hover {
-    border: 2px solid #281483;
+    border: 2px solid #0013FF;
     background: transparent;
     color: #000;
     text-decoration: none;
@@ -247,7 +247,7 @@ ul {
 
 /*link*/
 a {
-    color: #281483;
+    color: #0013FF;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -285,7 +285,7 @@ img {
     font-size: 16px;
     line-height: 18px;
     padding: 10px 15px;
-    background: #281483;
+    background: #0013FF;
     font-weight: 500;
     text-transform: uppercase;
     color: #fff;
@@ -308,7 +308,7 @@ img {
     left: 0;
     height: 2px;
     width: 50px;
-    background-color: #281483;
+    background-color: #0013FF;
 }
 
 /*section bg*/
@@ -321,7 +321,7 @@ img {
 }
 
 .bg-color {
-    background: #281483 !important;
+    background: #0013FF !important;
 }
 
 /*text color*/
@@ -330,7 +330,7 @@ img {
 }
 
 .color-text {
-    color: #281483 !important;
+    color: #0013FF !important;
 }
 
 .gray-text {
@@ -948,8 +948,8 @@ SECTION MARGIN
 ============================================================*/
 
 .navbar {
-    border-bottom: 1px solid #281483;
-    background-color: #281483;
+    border-bottom: 1px solid #0013FF;
+    background-color: #0013FF;
 }
 
 .navbar .nav.navbar-nav {
@@ -960,7 +960,7 @@ SECTION MARGIN
 }
 
 .navbar .navbar-collapse {
-    border-top: 1px solid #281483;
+    border-top: 1px solid #0013FF;
 }
 
 /* Logo */
@@ -996,13 +996,13 @@ SECTION MARGIN
 .navbar .navbar-toggle:hover .icon-bar,
 .navbar .navbar-toggle:active .icon-bar,
 .navbar .navbar-toggle.collapsed:active .icon-bar {
-    background-color: #281483;
+    background-color: #0013FF;
 }
 /* end of mobile menu toggle button - pressed */
 
 /* Mobile menu toggle button */
 .navbar .navbar-toggle.collapsed {
-    border: 1px solid #281483;
+    border: 1px solid #0013FF;
     background: transparent;
 }
 
@@ -1042,7 +1042,7 @@ SECTION MARGIN
 
     .navbar.top-nav-collapse {
         padding: 0;
-        background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%)
+        background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     }
 
     .navbar .navbar-brand {
@@ -1118,7 +1118,7 @@ SECTION MARGIN
 }
 .white-indicator.owl-theme .owl-nav [class*=owl-]:hover{
     background: rgba(249, 249, 249, 0.21);
-    color: #281483;
+    color: #0013FF;
 }
 .white-indicator .owl-nav button span{
     font-size: 16px;
@@ -1181,7 +1181,7 @@ SECTION MARGIN
 }
 
 .section-circle .shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%)
+    background: linear-gradient(150deg, #0013FF 15%, #8f6ed5 70%, #d782d9 94%)
 }
 
 .section-circle .shape-primary :nth-child(1) {
@@ -1315,7 +1315,7 @@ SECTION MARGIN
 }
 
 .section-circle .shape-style-1.shape-primary {
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%)
+    background: linear-gradient(150deg, #0013FF 15%, #8f6ed5 70%, #d782d9 94%)
 }
 
 
@@ -1509,14 +1509,14 @@ SECTION MARGIN
     transform: translateY(4px);
 }
 .slider-action-btn a.video:hover span{
-    background: #281483;
+    background: #0013FF;
     color: #fff;
 }
 .slider-action-btn a.video span{
     width: 40px;
     height: 40px;
     line-height: 40px;
-    color: #281483;
+    color: #0013FF;
     border: 2px solid #fff;
     background: #fff;
     text-align: center;
@@ -1551,11 +1551,11 @@ SECTION MARGIN
     height: 100%;
     content: "";
     z-index: -1;
-    background: -webkit-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -moz-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -ms-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -o-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
+    background: -webkit-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
+    background: -moz-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
+    background: -ms-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
+    background: -o-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
 }
 /*.slider-content-two{*/
     /*height: 100vh;*/
@@ -1722,7 +1722,7 @@ SECTION MARGIN
 
 .hero-action-btn a.softo-solid-btn:hover{
     background: #fff;
-    color: #281483;
+    color: #0013FF;
     border-color: #fff;
 
 }
@@ -1748,7 +1748,7 @@ SECTION MARGIN
     transition: all .3s linear;
 }
 .custom-indicator.owl-theme .owl-dots .owl-dot.active span, .custom-indicator.owl-theme .owl-dots .owl-dot:hover span {
-    background: #281483;
+    background: #0013FF;
 }
 
 .custom-indicator .owl-dots button:focus, .custom-indicator .owl-dots:active{
@@ -1798,7 +1798,7 @@ SECTION MARGIN
     line-height: 25px;
     margin: 1px;
     color: #fff;
-    background: #281483;
+    background: #0013FF;
 }
 .phone-carousel .owl-theme .owl-nav button.owl-next{
     border-radius: 0 30px 30px 0;
@@ -1807,11 +1807,11 @@ SECTION MARGIN
     border-radius: 30px 0 0 30px;
 }
 .phone-carousel .owl-theme .owl-nav button:hover{
-    background: #281483;
+    background: #0013FF;
 }
 .phone-carousel .owl-theme .owl-nav button:focus, .phone-carousel .owl-theme .owl-nav button:active{
     outline: none;
-    background: #281483;
+    background: #0013FF;
     color: #fff;
     border: none;
 }
@@ -1875,17 +1875,17 @@ SECTION MARGIN
     text-align: center;
 }
 .slider-indicator ul li:focus,.slider-indicator ul li:hover{
-    color:#281483
+    color:#0013FF
 }
 
 .indicator-color ul li{
     background: #f9f9f9;
-    color: #281483;
+    color: #0013FF;
     border-radius: 2px;
 }
 .indicator-color ul li:hover{
     color: #fff;
-    background: #281483;
+    background: #0013FF;
 }
 .phone-carousel .phone .header-slider:before{
     background: rgba(0, 0, 0, 0) url(../img/mockup_top.png) no-repeat scroll center center / cover;
@@ -1951,7 +1951,7 @@ SECTION MARGIN
     font-family: 'Montserrat', sans-serif;
 }
 .higlight-text p strong{
-    background: #281483;
+    background: #0013FF;
     color: #fff;
     padding: 0 8px;
     border-radius: 30px;
@@ -1987,7 +1987,7 @@ SECTION MARGIN
 .single-promo-content span{
     font-size: 35px;
     margin-bottom: 10px;
-    background: linear-gradient(to bottom, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(to bottom, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2002,7 +2002,7 @@ SECTION MARGIN
     width: 100%;
     height: 2px;
     background: #6541c1;
-    background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -2097,7 +2097,7 @@ SECTION MARGIN
 .video-play-button a{
     position: relative;
     z-index: 2;
-    color: #281483;
+    color: #0013FF;
     height: 70px;
     width: 70px;
     line-height: 70px;
@@ -2111,7 +2111,7 @@ SECTION MARGIN
     background: #fff;
 }
 .video-play-button a:hover{
-    background: #281483;
+    background: #0013FF;
     color: #fff;
 }
 .video-play-button a:hover span{
@@ -2119,7 +2119,7 @@ SECTION MARGIN
 }
 .video-play-button a span{
     font-size: 40px;
-    color: #281483;
+    color: #0013FF;
     text-align: center;
     vertical-align: middle;
     padding-left: 5px;
@@ -2384,7 +2384,7 @@ SECTION MARGIN
     cursor: pointer;
 }
 .biz-home-single-service-two:hover .service-style-two span, .biz-home-single-service-two:hover .service-style-two h5{
-    color: #281483;
+    color: #0013FF;
 }
 .service-style-one {
     position: relative;
@@ -2406,7 +2406,7 @@ SECTION MARGIN
     left: 0;
     font-size: 30px;
     line-height: 30px;
-    background: linear-gradient(to bottom, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(to bottom, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2420,7 +2420,7 @@ SECTION MARGIN
     border-radius: 4px;
 }
 .service-style-one span:before {
-    color: #281483;
+    color: #0013FF;
     transition: all 0.3s ease-in;
 }
 .home-service-text h5 {
@@ -2495,7 +2495,7 @@ SECTION MARGIN
     overflow: hidden;
     align-items: center;
     top: 8px;
-    background: linear-gradient(to bottom, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(to bottom, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2524,7 +2524,7 @@ SECTION MARGIN
     font-size: 16px;
 }
 .product-counter-section .counter-list li:nth-child(3n+1) .count {
-    color: #281483;
+    color: #0013FF;
 }
 .product-counter-section .counter-list li:nth-child(3n+2) .count {
     color: #8f6ed5;
@@ -2695,7 +2695,7 @@ SECTION MARGIN
 .blockquote-icon i{
     font-size: 40px;
     line-height: 40px;
-    background: linear-gradient(to top, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(to top, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2802,7 +2802,7 @@ SECTION MARGIN
 .testimonial-slider .owl-nav button span{
     font-size: 18px;
     line-height: 18px;
-    color: #281483;
+    color: #0013FF;
 }
 /*============================================================
 			13. FAQ SECTION CSS
@@ -2836,7 +2836,7 @@ SECTION MARGIN
     position: absolute;
     top: 0;
     left: -2px;
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
 }
 
 #accordion .panel-heading {
@@ -2871,7 +2871,7 @@ SECTION MARGIN
     top: 50%;
     right: 25px;
     transform: translateY(-50%);
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
     -webkit-background-clip: text;
     color: transparent
 }
@@ -2974,10 +2974,10 @@ SECTION MARGIN
     background: #fff;
 }
 .download-app-button a:hover p, .download-btn.hover-active p{
-    color: #281483;
+    color: #0013FF;
 }
 .download-app-button a:hover span, .download-btn.hover-active span{
-    background: linear-gradient(to bottom, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(to bottom, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -3072,7 +3072,7 @@ SECTION MARGIN
     color: #232323;
 }
 .blog-post-content-area h3 a:hover{
-    color: #281483;
+    color: #0013FF;
 }
 
 .blog-footer-area a{
@@ -3115,13 +3115,13 @@ SECTION MARGIN
 #sliderBlog .owl-nav button:focus, #sliderBlog .owl-nav button:hover{
     color:#fff;
     outline: none;
-    background: #281483;
+    background: #0013FF;
 }
 #sliderBlog .owl-nav button:focus span, #sliderBlog .owl-nav button:hover span{
     color: #fff;
  }
 #sliderBlog .owl-nav button span{
-    color: #281483;
+    color: #0013FF;
     font-size: 18px;
     line-height: 18px;
 }
@@ -3168,7 +3168,7 @@ SECTION MARGIN
     font-size: 14px;
     line-height: 24px;
     color: #000;
-    border-left: 4px solid #281483;
+    border-left: 4px solid #0013FF;
     padding-left: 20px;
     margin: 40px 0;
 }
@@ -3222,7 +3222,7 @@ ul.blog-comments li a {
     padding: 2px 10px;
     border-radius: 2px;
     color: #fff;
-    background: #281483;
+    background: #0013FF;
 }
 ul.blog-comments li span {
     float: left;
@@ -3256,7 +3256,7 @@ ul.blog-comments li p {
 }
 .comment-input-field:focus, .comment-form textarea:focus{
     outline: none;
-    border-color: #281483;
+    border-color: #0013FF;
 }
 .comment-form textarea {
     width: 100%;
@@ -3279,7 +3279,7 @@ ul.blog-comments li p {
     margin-bottom: 15px;
 }
 .footer-address ul li i{
-    color: #281483;
+    color: #0013FF;
     margin-right: 5px;
 }
 
@@ -3293,7 +3293,7 @@ ul.blog-comments li p {
 }
 
 .contact-us-form .form-group .form-control:focus{
-    border-color: #281483;
+    border-color: #0013FF;
 }
 
 
@@ -3328,7 +3328,7 @@ ul.blog-comments li p {
     box-shadow: 0 1px 2px rgba(212, 212, 212, 0.35);
 }
 .footer-social-list ul li a:hover{
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
 }
 .footer-social-list ul li a:hover i{
     color: #fff;
@@ -3340,7 +3340,7 @@ ul.blog-comments li p {
     text-align: center;
     vertical-align: middle;
     font-size: 16px;
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
     -webkit-background-clip: text;
     color: transparent;
     transition: all 0.3s ease-in;
@@ -3384,7 +3384,7 @@ ul.blog-comments li p {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #281483;
+    border-top-color: #0013FF;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -3467,7 +3467,7 @@ ul.blog-comments li p {
 #toTop span {
     display: block;
     position: relative;
-    background: #281483;
+    background: #0013FF;
     padding: 5px 12px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);

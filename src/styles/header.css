@@ -1,0 +1,14 @@
+/* .navbar {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: border-bottom .3s ease-in-out,background .3s ease-in-out,padding .3s ease-in-out;
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%) !important;
+}
+
+.navbar ::before {
+    background:#0013FF;
+}
+
+.navbar ::after {
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%) !important;
+} */
