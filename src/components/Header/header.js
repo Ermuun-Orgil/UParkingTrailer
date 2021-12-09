@@ -19,19 +19,19 @@ const Header = () => {
                                     <span className="icon-bar"></span>
                                 </button>
                                 <a className="navbar-brand page-scroll" href="/">
-                                    <img src={"/img/logo.png"} alt="logo" />
+                                    <img src={"/img/logo.png"} alt="logo" style={{height: '35px'}} />
                                 </a>
                             </div>
 
                             {/* Collect the nav links, forms, and other content for toggling */}
                             <div className="navbar-collapse collapse" id="myNavbar">
                                 <ul className="nav navbar-nav navbar-right">
-                                    <li className="active"><a className="page-scroll" href="#hero">Home</a></li>
-                                    <li><a className="page-scroll" href="#features">Features</a></li>
+                                    <li className="active"><a className="page-scroll" href="#hero">Нүүр Хуудас</a></li>
+                                    <li><a className="page-scroll" href="#features">Бүтээгдэхүүн</a></li>
                                     <li><a className="page-scroll" href="#pricing">Pricing</a></li>
-                                    <li><a className="page-scroll" href="#faqs">Faq</a></li>
-                                    <li><a className="page-scroll" href="#news">News</a></li>
-                                    <li><a className="page-scroll" href="#contact">Contact</a></li>
+                                    <li><a className="page-scroll" href="#faqs">Түгээмэл асуултууд</a></li>
+                                    <li><a className="page-scroll" href="#news">Мэдээлэл</a></li>
+                                    <li><a className="page-scroll" href="#contact">Холбоо барих</a></li>
                                 </ul>
                             </div>
 

@@ -283,7 +283,7 @@ jQuery(function ($) {
     var typed = $(".typed");
     $(function() {
         typed.typed({
-            strings: ["Apple App Development.", "Android App.", "Windows Apps.", "App For Any Platform"],
+            strings: ["Хаанаас ч", "Хэзээ ч", "Хурдан", "Шуурхай"],
             typeSpeed: 130,
             loop: true
         });

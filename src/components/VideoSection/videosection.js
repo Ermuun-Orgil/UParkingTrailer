@@ -17,7 +17,7 @@ class VideoSection extends React.Component {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="video-play-button">
-                                        <a href="https://www.youtube.com/watch?v=9No-FiEInLA"
+                                        <a href="https://www.youtube.com/watch?v=FseBGb1YQ4Y"
                                             className="video video-play mfp-iframe" data-toggle="modal"
                                             data-target="#video-popup">
                                             <span className="ti-control-play"></span>

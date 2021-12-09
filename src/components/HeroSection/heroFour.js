@@ -7,7 +7,7 @@ let bgStyle = {
 };
 
 let initData = {
-  heading: "ApeTech Provide -",
+  heading: "UParking -",
   content:
     "Our software platform and custom development allow healthcare institutions to create comprehensive cross-platform solutions that ensure positive patient experiences.",
   heroImage: "/img/faq-right.png",
@@ -66,7 +66,7 @@ class HeroSection extends React.Component {
                                                     </a>
                                                 )
                                             })}
-                                            <a href="https://www.youtube.com/watch?v=LV3cjaA7NtE" className="video">
+                                            <a href="https://www.youtube.com/watch?v=FseBGb1YQ4Y" className="video">
                                                 <span className="ti-control-play"></span>
                                             </a>
                                         </div>

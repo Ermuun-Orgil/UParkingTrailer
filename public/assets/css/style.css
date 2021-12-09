@@ -948,7 +948,7 @@ SECTION MARGIN
 ============================================================*/
 
 .navbar {
-    border-bottom: 1px solid #0013FF;
+    border-bottom: 1px solid #fff;
     background-color: #0013FF;
 }
 
@@ -1002,7 +1002,7 @@ SECTION MARGIN
 
 /* Mobile menu toggle button */
 .navbar .navbar-toggle.collapsed {
-    border: 1px solid #0013FF;
+    border: 1px solid #fff;
     background: transparent;
 }
 

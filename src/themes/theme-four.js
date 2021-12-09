@@ -29,7 +29,6 @@ class ThemeFour extends Component{
                     <div className="main-content-inner">
                         <Header />
                         <HeroSection />
-                        <ProductCount />
                         <Feature />
                         <PromoSection />
                         <VideoSection imageData={"/img/bg-wave-sym.png"} />
