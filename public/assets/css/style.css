@@ -1987,7 +1987,7 @@ SECTION MARGIN
 .single-promo-content span{
     font-size: 35px;
     margin-bottom: 10px;
-    background: linear-gradient(to bottom, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2001,8 +2001,8 @@ SECTION MARGIN
 .single-promo-section .line{
     width: 100%;
     height: 2px;
-    background: #6541c1;
-    background: linear-gradient(150deg, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
+    background: #0013FF;
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -2052,21 +2052,21 @@ SECTION MARGIN
 .overlay-1{
     height: 100%;
     width: 100%;
-    background: -webkit-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -moz-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -ms-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -o-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
+    background: -webkit-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -moz-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -ms-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -o-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
     padding-top: 200px;
 }
 .overlay {
     height: 100%;
     width: 100%;
-    background: -webkit-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -moz-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -ms-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -o-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
+    background: -webkit-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -moz-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -ms-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -o-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
     padding: 200px 0;
 }
 .overlay-1 img{
@@ -2695,7 +2695,7 @@ SECTION MARGIN
 .blockquote-icon i{
     font-size: 40px;
     line-height: 40px;
-    background: linear-gradient(to top, #0013FF 15%, #8f6ed5 70%, #d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2836,7 +2836,7 @@ SECTION MARGIN
     position: absolute;
     top: 0;
     left: -2px;
-    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
 }
 
 #accordion .panel-heading {
@@ -2871,7 +2871,7 @@ SECTION MARGIN
     top: 50%;
     right: 25px;
     transform: translateY(-50%);
-    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     -webkit-background-clip: text;
     color: transparent
 }
@@ -2909,11 +2909,11 @@ SECTION MARGIN
     height: 100%;
     content: "";
     z-index: -1;
-    background: -webkit-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -moz-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -ms-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: -o-linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
-    background: linear-gradient(150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
+    background: -webkit-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -moz-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -ms-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -o-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
 }
 .download-app-img{
     margin-top: -115px;
