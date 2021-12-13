@@ -6,7 +6,13 @@ const BASE_URL = "https://my-json-server.typicode.com/lhmisho/React-Tutorial/the
 class Contact extends Component {
 
     state = {
-        data: {}
+        data: {},
+        heading: 'Бидэнтэй холбогдоорой',
+        content: 'anime',
+        address: 'Улаанбаатар, Бээжингийн гудамж, Seoul Business Center, 3 давхарт, 10 тоот',
+        phone: '+976 77440606',
+        email: 'info@uparking.mn',
+        branch: 'Төв оффис'
     }
     componentDidMount(){
         axios.get(`${BASE_URL}`)
@@ -26,16 +32,16 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col-md-5">
                                 <div className="section-heading">
-                                    <h3>{this.state.data.heading}</h3>
+                                    <h3>{this.state.heading}</h3>
                                     <p>{this.state.data.content}</p>
                                 </div>
                                 <div className="footer-address">
-                                    <h6>{this.state.data.branch}</h6>
-                                    <p>{this.state.data.address}</p>
+                                    <h6>{this.state.branch}</h6>
+                                    <p>{this.state.address}</p>
                                     <ul>
-                                        <li><i className="fa fa-phone"></i> <span>Phone: {this.state.data.content}</span></li>
+                                        <li><i className="fa fa-phone"></i> <span>Phone: {this.state.phone}</span></li>
                                         <li><i className="fa fa-envelope-o"></i> <span>Email : <a
-                                            href="mailto:hello@yourdomain.com">{this.state.data.email}</a></span>
+                                            href="mailto:hello@yourdomain.com">{this.state.email}</a></span>
                                         </li>
                                     </ul>
                                 </div>

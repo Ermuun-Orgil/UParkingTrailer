@@ -10,7 +10,9 @@ class Feature extends React.Component{
     state = {
         data : {},
         featureDataOne: [],
-        featureDataTwo: [] 
+        featureDataTwo: [],
+        heading: 'Бүтээгдэхүүн',
+        content: 'ashfoahsdflhasol',
     }
 
     componentDidMount(){
@@ -35,8 +37,8 @@ class Feature extends React.Component{
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="section-heading text-center">
-                                    <h3>{this.state.data.heading}</h3>
-                                    <p>{this.state.data.content}</p>
+                                    <h3>{this.state.heading}</h3>
+                                    <p>{this.state.content}</p>
                                 </div>
                             </div>
                         </div>

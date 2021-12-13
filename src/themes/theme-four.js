@@ -32,7 +32,7 @@ class ThemeFour extends Component{
                         <Feature />
                         <PromoSection />
                         <VideoSection imageData={"/img/bg-wave-sym.png"} />
-                        <Pricing />
+                        {/* <Pricing /> */}
                         <Testimonial />
                         <Faq />
                         <Download />

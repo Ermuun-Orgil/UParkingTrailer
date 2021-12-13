@@ -1512,6 +1512,17 @@ SECTION MARGIN
     background: #0013FF;
     color: #fff;
 }
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 .slider-action-btn a.video span{
     width: 40px;
     height: 40px;
@@ -1551,11 +1562,11 @@ SECTION MARGIN
     height: 100%;
     content: "";
     z-index: -1;
-    background: -webkit-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
-    background: -moz-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
-    background: -ms-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
-    background: -o-linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
-    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
+    background: -webkit-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -moz-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -ms-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -o-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
 }
 /*.slider-content-two{*/
     /*height: 100vh;*/

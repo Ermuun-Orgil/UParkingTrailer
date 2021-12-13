@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 
-let bg = "/img/download-bg.jpg"
+let bg = "/img/hero-section-bg-2.jpg"
 let bgCss = "no-repeat center center fixed"
 let bgStyle = {
     background: 'url('+bg+')'+bgCss

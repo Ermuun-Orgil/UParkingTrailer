@@ -53,7 +53,7 @@ class ContactForm extends Component {
                   className="form-control"
                   id="name"
                   name="name"
-                  placeholder="Enter name"
+                  placeholder="Нэр"
                   required="required"
                   onChange={this.changHandler}
                   value={this.state.name}
@@ -67,7 +67,7 @@ class ContactForm extends Component {
                   className="form-control"
                   id="email"
                   name="email"
-                  placeholder="Enter email"
+                  placeholder="Цахим шуудан"
                   required="required"
                   onChange={this.changHandler}
                   value={this.state.email}
@@ -83,7 +83,7 @@ class ContactForm extends Component {
                   name="phone"
                   className="form-control"
                   id="phone"
-                  placeholder="Your Phone"
+                  placeholder="Утасны дугаар"
                   onChange={this.changHandler}
                   value={this.state.phone}
                 />
@@ -99,7 +99,7 @@ class ContactForm extends Component {
                   size="40"
                   className="form-control"
                   id="company"
-                  placeholder="Your Company"
+                  placeholder="Компанийн нэр"
                 />
               </div>
             </div>
@@ -113,7 +113,7 @@ class ContactForm extends Component {
                   className="form-control"
                   rows="7"
                   cols="25"
-                  placeholder="Message"
+                  placeholder="Санал, хүсэлт"
                   onChange={this.changHandler}
                   value={this.state.message}
                 />
@@ -127,7 +127,7 @@ class ContactForm extends Component {
                 className="btn softo-solid-btn pull-right"
                 id="btnContactUs"
               >
-                Send Message
+                Илгээх
               </button>
             </div>
           </div>
