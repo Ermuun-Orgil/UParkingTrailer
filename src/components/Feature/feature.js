@@ -9,24 +9,57 @@ class Feature extends React.Component{
     
     state = {
         data : {},
-        featureDataOne: [],
-        featureDataTwo: [],
+        image: "/img/feature-image.png",
         heading: 'Бүтээгдэхүүн',
-        content: 'ashfoahsdflhasol',
+        content: 'Хаана ч, Хэзээ ч, Хаанаас ч Автомашинтай холбоотой АСУУДЛЫГ ХӨНГӨВЧИЛЖ, ШИЙДЛИЙГ  ХЯЛБАРЧИЛНА',
+        featureDataOne: [
+            {
+                iconClass: "fa fa-object-ungroup",
+                heading: 'Зогсоол хайх',
+                content: 'Байршлаар болон Нэрээр хайж зогсоолын мэдээлэл харах, сонгох',
+            },
+            {
+                iconClass: "fa fa-dropbox",
+                heading: 'Захиалах, Төлбөр төлөх',
+                content: 'Олон төрөлт төлбөрийн шийдэл ашиглан захиалгаа баталгаажуулан, Зогсоолын нэмэлт мэдээлэл авах',
+            },
+            {
+                iconClass: "fa fa-smile-o",
+                heading: 'Зогсоол ашиглах',
+                content: 'Захиалгын баталгаажсан хугацаандаа зогсоолыг ашиглаж, суллана',
+            },
+        ],
+        featureDataTwo: [
+            {
+                iconClass: "fa fa-file-archive-o",
+                heading: 'Зогсоол бүртгүүлэх',
+                content: 'Зогсоолын үндсэн болон нэмэлт мэдээллийг илгээж, Админ баталгаажуулна',
+            },
+            {
+                iconClass: "fa fa-adjust",
+                heading: 'Захиалах хүлээн авах',
+                content: 'Зогсоолын захиалгын мэдээлийг хянах, захиалгатай өдрүүдэд зогсоол суллаж бэлэн байдлыг хангана',
+            },
+            {
+                iconClass: "fa fa-smile-o",
+                heading: 'Орлого хүлээн авах',
+                content: 'Захиалгын хугацаа эхэлснээс хойш 24 цагийн дотор хэтэвчинд түрээсийн орлого байршина.',
+            },
+        ],
     }
 
-    componentDidMount(){
-        axios.get(`${BASE_URL}`)
-            .then(res => {
-                this.setState({
-                    data: res.data,
-                    featureDataOne: res.data.featureDataOne,
-                    featureDataTwo: res.data.featureDataTwo
-                })
-                // console.log(this.state.data)
-            })
-            .catch(err => console.log(err))
-    }
+    // componentDidMount(){
+    //     axios.get(`${BASE_URL}`)
+    //         .then(res => {
+    //             this.setState({
+    //                 data: res.data,
+    //                 featureDataOne: res.data.featureDataOne,
+    //                 featureDataTwo: res.data.featureDataTwo
+    //             })
+    //             // console.log(this.state.data)
+    //         })
+    //         .catch(err => console.log(err))
+    // }
     
     render(){
         return (
@@ -64,7 +97,7 @@ class Feature extends React.Component{
                             </div>
                             <div className="col-md-4 hidden-sm hidden-xs">
                                 <div className="feature-image">
-                                    <img src={this.state.data.image} className="pos-hcenter img-responsive" alt="" />
+                                    <img src={this.state.image} className="pos-hcenter img-responsive" alt="" />
                                 </div>
                             </div>
                             <div className="col-md-4 col-sm-6">
