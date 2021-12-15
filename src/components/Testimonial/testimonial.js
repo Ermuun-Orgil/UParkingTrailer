@@ -40,7 +40,8 @@ class Testimonial extends Component {
 
     state = {
         data: {},
-        person: []
+        person: [],
+        content: '“Юу Паркинг Инт” ХХК нь Монгол улсад анхдагч болох Авто зогсоолын түрээсийн цахим peer to peer Uparking платформыг хөгжүүлж байгаа юм. Авто зогсоолын асуудал нь хүрэлцээнээсээ бус зөв менежментгүйгээсээ болж үүсдэг. Тиймээс Uparking платформ нь авто зогсоолын хүрэлцээг нэмэгдүүлэх боломж, цаашид авто зогсоол төлөвлөлтийг нэмэгдүүлэх ач холбогдолтой төсөл гэж харж, хөгжүүлж байна.',
     }
 
     componentDidMount(){
@@ -71,7 +72,7 @@ class Testimonial extends Component {
                             <div className="col-md-12">
                                 <div className="section-heading text-center">
                                     <h3>{this.state.data.heading}</h3>
-                                    <p>{this.state.data.content}</p>
+                                    <p>{this.state.content}</p>
                                 </div>
                             </div>
                         </div>

@@ -14,7 +14,8 @@ class Download extends Component{
 
     state = {
         initData: {},
-        data: []
+        data: [],
+        image: 'img/download-image.png',
     }
     componentDidMount(){
         axios.get(`${BASE_URL}`)
@@ -35,7 +36,7 @@ class Download extends Component{
                 <div className="row">
                     <div className="col-md-5 hidden-sm">
                         <div className="download-app-img">
-                            <img src={this.state.initData.image} alt="app download" className="img-responsive" />
+                            <img src={this.state.image} alt="app download" className="img-responsive" />
                         </div>
                     </div>
                     <div className="col-md-7 col-sm-12">
