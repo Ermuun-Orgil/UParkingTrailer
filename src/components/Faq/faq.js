@@ -6,7 +6,8 @@ class Faq extends Component{
 
     state = {
         initData: {},
-        data: []
+        data: [],
+        heading: 'Түгээмэл асуултууд',
     }
 
     componentDidMount(){
@@ -29,7 +30,7 @@ class Faq extends Component{
                     <div className="row">
                         <div className="col-md-6">
                             <div className="section-heading">
-                                <h3>{this.state.initData.heading}</h3>
+                                <h3>{this.state.heading}</h3>
                                 <p>{this.state.initData.content}</p>
                             </div>
                             <div className="panel-group" id="accordion">

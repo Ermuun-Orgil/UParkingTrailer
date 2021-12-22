@@ -1552,7 +1552,7 @@ SECTION MARGIN
     display: block;
     overflow: hidden;
     width: 100%;
-    z-index: 1;
+    z-index: 1; 
 }
 .hero-slider-section-one:after, .hero-slider-section-two:after{
     position: absolute;
@@ -1699,11 +1699,11 @@ SECTION MARGIN
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background: -webkit-linear-gradient(150deg, rgba(40, 20, 131, 0.55) 15%, rgba(143, 110, 213, 0.45) 70%, rgba(215, 130, 217, 0.50) 94%);
-    background: -moz-linear-gradient(150deg, rgba(40, 20, 131, 0.55) 15%, rgba(143, 110, 213, 0.45) 70%, rgba(215, 130, 217, 0.50) 94%);
-    background: -ms-linear-gradient(150deg, rgba(40, 20, 131, 0.55) 15%, rgba(143, 110, 213, 0.45) 70%, rgba(215, 130, 217, 0.50) 94%);
-    background: -o-linear-gradient(150deg, rgba(40, 20, 131, 0.55) 15%, rgba(143, 110, 213, 0.45) 70%, rgba(215, 130, 217, 0.50) 94%);
-    background: linear-gradient(150deg, rgba(40, 20, 131, 0.55) 15%, rgba(143, 110, 213, 0.45) 70%, rgba(215, 130, 217, 0.50) 94%);
+    background: -webkit-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -moz-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -ms-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: -o-linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
+    background: linear-gradient(150deg, rgba(0, 19, 255, 0.8) 15%, rgba(0, 249, 212, 0.8) 80%);
 }
 
 /*hero seven*/
@@ -3339,7 +3339,7 @@ ul.blog-comments li p {
     box-shadow: 0 1px 2px rgba(212, 212, 212, 0.35);
 }
 .footer-social-list ul li a:hover{
-    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
 }
 .footer-social-list ul li a:hover i{
     color: #fff;
@@ -3351,7 +3351,7 @@ ul.blog-comments li p {
     text-align: center;
     vertical-align: middle;
     font-size: 16px;
-    background: linear-gradient(150deg,#0013FF 15%,#8f6ed5 70%,#d782d9 94%);
+    background: linear-gradient(150deg, #0013FF 15%, #00f9d4 80%);
     -webkit-background-clip: text;
     color: transparent;
     transition: all 0.3s ease-in;
