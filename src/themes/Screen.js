@@ -16,7 +16,7 @@ import Blog from '../components/Blogs/singleBlog'
 import Contact from '../components/Contact/contact'
 import Footer from '../components/footer/footer'
 
-class ThemeFour extends Component{
+class Screen extends Component{
     render(){
         return(
             <div>
@@ -46,4 +46,4 @@ class ThemeFour extends Component{
     }
 }
 
-export default ThemeFour
+export default Screen
