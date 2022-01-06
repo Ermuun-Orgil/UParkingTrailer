@@ -1,4 +1,5 @@
 module.exports = {
+  name: "landing_page",
   script: "serve",
   env: {
     PM2_SERVE_PATH: ".",
