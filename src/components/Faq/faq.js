@@ -8,6 +8,7 @@ class Faq extends Component{
         initData: {},
         data: [],
         heading: 'Түгээмэл асуултууд',
+        image: 'img/faq-image.png',
     }
 
     componentDidMount(){

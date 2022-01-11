@@ -165,11 +165,11 @@
         "heaing": "Download On",
         "category": "App Store",
         "iconClass": "ti-apple",
-        "extraaClass": "hover-active"
+        "extraaClass": ""
       },
       {
         "id": 2,
-        "heaing": "Git It On",
+        "heaing": "Get It On",
         "category": "Google Play",
         "iconClass": "ti-android",
         "extraaClass": ""
