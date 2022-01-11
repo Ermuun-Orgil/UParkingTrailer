@@ -26,10 +26,8 @@ const Header = () => {
                             <div className="navbar-collapse collapse" id="myNavbar">
                                 <ul className="nav navbar-nav navbar-right">
                                     <li className="active"><a className="page-scroll" href="#hero">Нүүр Хуудас</a></li>
-                                    <li><a className="page-scroll" href="#features">Бүтээгдэхүүн</a></li>
-                                    <li><a className="page-scroll" href="#pricing">Манай баг</a></li>
                                     <li><a className="page-scroll" href="#faqs">Түгээмэл асуултууд</a></li>
-                                    <li><a className="page-scroll" href="#news">Мэдээлэл</a></li>
+                                    <li><a className="page-scroll" href="#news">Мэдээ</a></li>
                                     <li><a className="page-scroll" href="#contact">Холбоо барих</a></li>
                                 </ul>
                             </div>

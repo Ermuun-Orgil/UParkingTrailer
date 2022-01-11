@@ -283,7 +283,7 @@ jQuery(function ($) {
     var typed = $(".typed");
     $(function() {
         typed.typed({
-            strings: ["Хаанаас ч", "Хэзээ ч", "Хурдан", "Шуурхай"],
+            strings: ["Хаана ч", "Хэзээ ч", "Хаанаас ч"],
             typeSpeed: 130,
             loop: true
         });

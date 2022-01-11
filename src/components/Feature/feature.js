@@ -71,7 +71,7 @@ class Feature extends React.Component{
                             <div className="col-md-12">
                                 <div className="section-heading text-center">
                                     <h3>{this.state.heading}</h3>
-                                    <p>{this.state.content}</p>
+                                    <div>{this.state.content}</div>
                                 </div>
                             </div>
                         </div>

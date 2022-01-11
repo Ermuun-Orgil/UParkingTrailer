@@ -10,7 +10,6 @@ let initData = {
   heading: "UParking. Your parking",
   content:
     "Зогсоолын ашиглалт болон хэрэглээ, хэрэгцээг нэмэгдүүлэх дижитал шийдэл.",
-  heroImage: "/img/faq-right.png",
   actionShapeImage: "/img/shape-bg.png",
 };
 
