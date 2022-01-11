@@ -15,7 +15,7 @@ class Download extends Component{
     state = {
         initData: {},
         data: [],
-        image: 'img/download-image.png',
+        image: '/img/download-image.png',
     }
     componentDidMount(){
         axios.get(`${BASE_URL}`)

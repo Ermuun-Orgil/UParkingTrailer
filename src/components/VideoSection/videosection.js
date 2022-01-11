@@ -1,5 +1,5 @@
 import React from 'react'
-let bg = "/img/video-play.jpg"
+let bg = "/img/myTeam-image.png"
 let bgCss = "no-repeat center center / cover"
 let bgStyle = {
     background: 'url('+bg+')'+bgCss

@@ -9,7 +9,7 @@ class Feature extends React.Component{
     
     state = {
         data : {},
-        image: "/img/feature-image.png",
+        image: "/img/feature.png",
         heading: 'Бүтээгдэхүүн',
         content: 'Хаана ч, Хэзээ ч, Хаанаас ч Автомашинтай холбоотой АСУУДЛЫГ ХӨНГӨВЧИЛЖ, ШИЙДЛИЙГ  ХЯЛБАРЧИЛНА',
         featureDataOne: [
@@ -65,7 +65,7 @@ class Feature extends React.Component{
         return (
             <div>
                 {/* start features section */}
-                <section id="features" className="bg-secondary ptb-90">
+                <section id="features" className="ptb-90">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
