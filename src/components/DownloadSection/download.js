@@ -14,7 +14,9 @@ class Download extends Component{
 
     state = {
         initData: {},
-        data: [],
+        data: [
+            {url: 'https://play.google.com/store/apps/details?id=com.uparking'}
+        ],
         image: '/img/download-image.png',
     }
     componentDidMount(){
@@ -24,7 +26,7 @@ class Download extends Component{
                     initData: res.data,
                     data: res.data.data
                 })
-                // console.log(this.state)
+                console.log(this.state)
             })
             .catch(err => console.log(err))
     }
@@ -44,9 +46,9 @@ class Download extends Component{
                             <h3>{this.state.initData.heading}</h3>
                             <p>{this.state.initData.content}</p>
                             <div className="download-app-button">
-                                {this.state.data.map((item, idx) => {
+                                {this.state.data.slice(0, 2).map((item, idx) => {
                                     return(
-                                        <a key={`dw_${idx}`} href="download" className={`download-btn ${item.extraaClass}`}>
+                                        <a key={`dw_${idx}`} href={idx === 0 ? 'https://apps.apple.com/mn/app/uparkingmn/id1530927052' : 'https://play.google.com/store/apps/details?id=com.uparking'} className={`download-btn ${item.extraaClass}`}>
                                             <span className={item.iconClass}></span>
                                             <p>
                                                 <small>{item.heaing}</small>
