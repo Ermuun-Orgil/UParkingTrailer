@@ -7,7 +7,7 @@ const Header = () => {
             <header className="header">
                 {/* start navbar */}
                 <div className="navbar navbar-default navbar-fixed-top">
-                    <div className="container">
+                    <div className="container header-container">
                         <div className="row">
                             <div className="navbar-header page-scroll">
                                 <button type="button" className="navbar-toggle collapsed" data-toggle="collapse"

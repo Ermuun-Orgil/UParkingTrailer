@@ -947,7 +947,16 @@ SECTION MARGIN
 				03. HEADER CSS
 ============================================================*/
 
+.header-container {
+    width: 100vw;
+    margin-left: 8vw !important;
+    margin-right: 8vw !important;
+}
+
 .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0013FF;
 }
 
